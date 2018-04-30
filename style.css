@@ -48,8 +48,10 @@ body {
 
 .address {
  height: 30px;
- width: 300px;
- padding: 10px;
+ width: auto;
+ padding-top: 20px;
+ float:right;
+ text-align:right;
 }
 
 .background {
@@ -91,7 +93,7 @@ nav ul li {
  white-space: nowrap;
  display: inline;
  list-style-type: none;
- padding-left: 1.5em;
+ padding: 0 3.5%;
 }
 
 nav ul li a {
