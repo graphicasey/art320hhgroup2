@@ -1,15 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*
-Theme Name: Harvest House
-Author: Group 2
-Author URI: 
-Description: HI DOMM
-Version: 1.0
-*/
-
-
 /* Universal Selector Reset cssreset.com */
 * { margin: 0; padding: 0; }
 /* End Reset */
@@ -33,16 +24,6 @@ a{
 
 .inline {
 	display: inline-block;
-	background:url(images/logo.png);
-	background-repeat: no-repeat;
-	background-size: auto;
-	max-height: 200px
-}
-
-.logo{
-	height: auto;
-	width:auto;
-
 }
 
 .float {
@@ -57,16 +38,12 @@ a{
 #logopadding{
 	padding: 20px;
 	max-height:150px;
-	width:auto;
-	background-repeat: no-repeat;
-	background-size: auto;
 }
 
 .social{
 	opacity: 1;
 	padding-left: 10px;
 	margin-top: 10px;
-	background:url(images/FB.png);
 }
 
 .social:hover {
@@ -113,7 +90,6 @@ nav {
 	width: 100%;
 	padding-top: 20px;
 	height: 35px;
-	text-align: center;
 }
 
 nav ul li {
@@ -150,72 +126,23 @@ nav ul li a:hover {
 }
 
 
+
+
+
 .container {
 	position: relative;
 	width:200px;
 	height:200px;
 	display: inline;
 	padding-left:30px;
-	line-height: 2em;
-
+line-height: 2em;
 }
 
 .container img{
 	width:200px;
 	height:200px;
 	display:inline;
-	background:url(images/church.jpeg);
 }
-
-.container2 {
-	position: relative;
-	width:200px;
-	height:200px;
-	display: inline;
-	padding-left:30px;
-	line-height: 2em;
-}
-
-.container2 img{
-	width:200px;
-	height:200px;
-	display:inline;
-	background:url(images/education.jpeg);
-}
-
-.container3 {
-	position: relative;
-	width:200px;
-	height:200px;
-	display: inline;
-	padding-left:30px;
-	line-height: 2em;
-}
-
-.container3 img{
-	width:200px;
-	height:200px;
-	display:inline;
-	background:url(images/neighbor.jpg);
-}
-
-.container4 {
-	position: relative;
-	width:200px;
-	height:200px;
-	display: inline;
-	padding-left:30px;
-	line-height: 2em;
-}
-
-.container4 img{
-	width:200px;
-	height:200px;
-	display:inline;
-	background:url(images/baby.jpg);
-}
-
-
 
 .image {
 	opacity: 1;
@@ -243,30 +170,6 @@ nav ul li a:hover {
 }
 
 .container:hover .middle {
-	opacity: 1;
-}
-
-.container2:hover .image {
-	opacity: .1;
-}
-
-.container2:hover .middle {
-	opacity: 1;
-}
-
-.container3:hover .image {
-	opacity: .1;
-}
-
-.container3:hover .middle {
-	opacity: 1;
-}
-
-.container4:hover .image {
-	opacity: .1;
-}
-
-.container4:hover .middle {
 	opacity: 1;
 }
 
@@ -303,15 +206,4 @@ footer{
 	padding-top:2.5em;
 	padding-right:3em;
 }
-
-div.post{
-	text-align: center;
-	padding:2em;
-}
-
-.wpcf7-form-control-wrap your-name{
-	padding:2em;
-}
-
-
 
